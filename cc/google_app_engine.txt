@@ -1,0 +1,19 @@
+1. paste this on terminal console 
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+
+
+outpup-eb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main
+
+2. sudo apt update
+
+3. sudo apt install google-cloud-sdk
+or
+snap install google-cloud-sdk --classic
+
+4. gcloud --version
+
+5. gcloud init
+
+6.Log in to your account
+
+7. now create a new project and complete it.
